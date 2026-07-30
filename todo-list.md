@@ -19,3 +19,4 @@ dibawah ini yang bertanda [ ] dikerjakan, jika sudah di kerjakan tandai [x], jik
     <span class="wa-copy"><small>Butuh bantuan?</small><strong>Pesan via WhatsApp</strong></span>
     <span class="wa-arrow" aria-hidden="true">→</span>
   </a> tampilan jadi jelek, buat lebih bagus
+  - [x] button whatsapp di tampilan mobile sudah bisa, tapi masih kurang bagus masih belom ada logo whatsapp juga
