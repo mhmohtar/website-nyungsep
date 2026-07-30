@@ -1,6 +1,6 @@
 # Instructions
 
-dibawah ini yang bertanda [ ] dikerjakan, jika sudah di kerjakan tandai [x], jika sudah di cek dan belom sempurna aku tandai[!]
+dibawah ini yang bertanda [ ] dikerjakan, jika sudah di kerjakan tandai [x], jika sudah di cek dan belom sempurna aku tandai[!]. terakhir jalankan deploy.md
 - [x] bagian section hero ketika tampilan mobile masih belom responsive
 - [x] buat ketika di scroll bagian section atau card buat lebih hidup atau bergerak
 - [x] di halaman website kenapa ada font tidak dikenal seperti 🌶️, apa maksudnya yaa
