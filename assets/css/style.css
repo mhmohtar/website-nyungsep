@@ -237,3 +237,22 @@
   .badges span:last-child{grid-column:auto}
   .price-stamp{width:76px;height:76px}
 }
+
+/* Compact WhatsApp CTA for phones */
+.wa-mobile-text{display:none}
+@media(max-width:600px){
+  .wa-float{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));gap:8px;width:auto;min-width:112px;min-height:54px;padding:6px 14px 6px 6px;border:2px solid #fff;border-radius:999px;background:#20b95a;box-shadow:0 10px 26px #071d124d;animation:wa-pulse 3.2s ease-out infinite}
+  .wa-float:hover{transform:translateY(-2px);box-shadow:0 13px 28px #071d1255}
+  .wa-icon{display:grid;flex:0 0 40px;width:40px;height:40px;color:#fff;background:#ffffff1f}
+  .wa-icon svg{width:27px;height:27px}
+  .wa-copy,.wa-arrow{display:none}
+  .wa-mobile-text{display:block!important;margin:0!important;font:900 .92rem "Barlow Condensed",sans-serif;letter-spacing:.05em;text-transform:uppercase}
+}
+@media(max-width:350px){
+  .wa-float{width:54px;min-width:54px;height:54px;padding:5px;justify-content:center}
+  .wa-icon{flex-basis:40px}
+  .wa-mobile-text{display:none!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .wa-float{animation:none}
+}
